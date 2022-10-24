@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/web-without-buttoin-2.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1440px;
+    height: 2000px;
+    left: 0px;
+
+
+}
+
+.button-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    width: 260px;
+    height: 90px;
+    left: 590px;
+    top: 751px;
+    padding: 16px, 24px, 16px, 24px;
+    gap: 10px;
+
+    /* Gradient/Yellow/Yellow 100 */
+
+    background: linear-gradient(88.96deg, #F7971E 2.45%, #FFD200 111.49%);
+    box-shadow: 0px 0px 50px rgba(249, 158, 27, 0.3);
+    border-radius: 100px;
+
+}
+
+.button-block a {
+    /* Button */
+
+
+width: 144px;
+height: 36px;
+
+/* Headline/H4/Black */
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 1000;
+font-size: 24px;
+line-height: 36px;
+text-decoration: none;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+/* Night/Text/Text Primary */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.howto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 981px;
+
+}
+
+.howto h1{
+
+
+    /* identical to box height, or 100% */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 12px;
+    width: 137px;
+    height: 24px;
+    left: 576px;
+    top: 981px;
+
+    /* Night/Text/Text Primary */
+
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.howto h2 {
+    /* CashBack? */
+    left: 725px;
+    top: 981px;
+
+    width: 140px;
+    height: 24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+
+    text-decoration-line: underline;
+
+    /* Night/Semantic/Warning/Warning 100 */
+
+    color: #EBB924;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+    
+.list-items {
+    /* Register and use the promo codeduring the registration process. */
+    left: 146px;
+    top: 1039px;
+    right: 0px;
+
+    /* Headline/H6/Bold */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    /* Night/Text/Text Primary */
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.single-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 102px;
+    margin-top: 91px;
+}
+
+.single-list h3 {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../img/Ellipse-40.png);
+    box-sizing: border-box;
+
+}
+
+.single-list h4{
+    margin-left: 16px;
+    width: 308px;
+    height: 48px;
+}
+
+.single-list h5{
+    margin-left: 16px;
+    width: 346px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.single-list h6{
+    margin-left: 16px;
+    width: 222px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+
+
+.offer {
+    margin: 100px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 173px;
+    
+}
+
+.offer-text {
+    width: 599px;
+    height: 144px;
+    margin-left: 140px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.accent-color {
+    color: #EBB924;
+}
+.emphasis {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.offer h5 {
+    width: 354px;
+    height: 24px;
+    text-align: right;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Night/Text/Text Primary */
+
+    color: #FFFFFF;
+}
+
+.offer h6 {
+    width: 354px;
+    height: 24px;
+    text-align: right;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+
+    /* Night/Text/Text Primary */
+
+    color: #FFFFFF;
+}
+
+.terms-block {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    width: 840px;
+    height: 64px;
+    margin-left: 300px;
+    padding: 20px;
+
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.terms-block h1 {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF; 
+
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    width: 880px;
+    height: 64px;
+    margin-left: 300px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF; 
+    cursor: pointer;
+    padding: 18px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    width: 880px;
+    height: 64px;
+
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    display: none;
+    overflow: hidden;
+    width: 845px;
+    height: 64px;
+    margin-left: 300px;
+
+  }
+
+  .panel p {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF; 
+  }
